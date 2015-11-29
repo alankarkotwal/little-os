@@ -1,6 +1,6 @@
 # little-os
 
-#### A small OS written to learn about OS development, following [littleosbook.github.io](http://littleosbook.github.io/ "The little book on OS development") (and my tweaks).
+#### A small OS written to learn about OS development, following [littleosbook.github.io](http://littleosbook.github.io/ "The little book about OS development") (and my tweaks).
 
 ###### Requirements
 - A Linux system (I used Ubuntu 14.04)
