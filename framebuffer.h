@@ -1,5 +1,5 @@
-#ifndef FRAMEBUFFER_H
-#define FRAMEBUFFER_H
+#ifndef INCLUDE_FRAMEBUFFER_H
+#define INCLUDE_FRAMEBUFFER_H
 
 #include "io.h"
 
@@ -10,6 +10,10 @@
 /* The I/O port commands */
 #define FB_HIGH_BYTE_COMMAND    14
 #define FB_LOW_BYTE_COMMAND     15
+
+/* Framebuffer sizes */
+#define FRAMEBUFFER_WIDTH	80
+#define FRAMEBUFFER_HEIGHT	25
 
 /* Framebuffer start address */
 extern char *__fb;
