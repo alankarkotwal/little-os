@@ -35,3 +35,9 @@
 *~
 *.swp
 *.save
+
+# Logs
+bochslog.txt
+
+# ISOs
+os.iso
