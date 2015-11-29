@@ -38,6 +38,7 @@
 
 # Logs
 bochslog.txt
+*.out
 
 # ISOs
 os.iso
