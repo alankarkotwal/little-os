@@ -31,7 +31,10 @@ int fb_write(char *buf, unsigned int len) {
 			
 			int j;
 			for(j=0; j<2*FRAMEBUFFER_WIDTH*(FRAMEBUFFER_HEIGHT-1); j++) { 
-				__fb[i] = __fb[i+FRAMEBUFFER_WIDTH*2];
+				__fb[j] = __fb[j + FRAMEBUFFER_WIDTH*2];
+			}
+			for(j=j; j<2*FRAMEBUFFER_WIDTH*FRAMEBUFFER_HEIGHT; j++) {
+				__fb[j] = 0;
 			}
 		}
 		

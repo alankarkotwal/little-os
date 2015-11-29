@@ -39,7 +39,7 @@ void fb_move_cursor(unsigned short pos);
  */
 void fb_write_cell(unsigned int i, char c, unsigned char fg, unsigned char bg);
 
-/** write:
+/** fb_write:
  *  Write a character array to the framebuffer and scroll if necessary.
  *
  *  @param buf	Pointer to the start of the buffer
