@@ -9,4 +9,4 @@
 - (On Ubuntu) the following packages: build-essential, nasm, genisoimage, bochs, bochs-sdl
 
 ###### Running
-If you're awesome and use Make, just hit `make run` after installing the dependencies. Bochs should start up and start emulating the OS.
+If you're awesome and use Make, just hit `make run` after installing the dependencies. Bochs should start up and start running the OS.
