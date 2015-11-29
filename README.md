@@ -1,5 +1,5 @@
 # little-os
-===========
+
 #### A small OS written to learn about OS development, following [littleosbook.github.io](littleosbook.github.io "The little book on OS development") (and my tweaks).
 
 ###### Requirements
