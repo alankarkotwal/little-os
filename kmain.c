@@ -7,5 +7,8 @@ char myname[] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestib
  *  The main function the kernel calls before it goes into an infinite loop
  */
  void kmain() {
- 	serial_write(DEBUG_SERIAL, myname, 2652);
+ 	serial_configure(DEBUG_SERIAL, 2);
+ 	
+ 	fb_write(myname, 2651);
+ 	serial_write(DEBUG_SERIAL, myname, 2651);
  }

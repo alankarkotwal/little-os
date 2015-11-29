@@ -37,7 +37,7 @@
  *  @param com      The COM port to configure
  *  @param divisor  The divisor
  */
-void serial_configure_baud_rate(unsigned short com, unsigned short divisor);
+void serial_configure(unsigned short com, unsigned short divisor);
 
 /** serial_configure_line:
  *  Configures the line of the given serial port. The port is set to have a
@@ -46,16 +46,7 @@ void serial_configure_baud_rate(unsigned short com, unsigned short divisor);
  *
  *  @param com  The serial port to configure
  */
-void serial_configure_line(unsigned short com);
 
-/** serial_is_transmit_fifo_empty:
- *  Checks whether the transmit FIFO queue is empty or not for the given COM
- *  port.
- * 
- *  @param  com The COM port
- *  @return 0 		if the transmit FIFO queue is not empty
- *          non-zero 	if the transmit FIFO queue is empty
- */
 int serial_is_transmit_fifo_empty(unsigned short com);
 
 /** serial_recieved:
